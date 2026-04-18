@@ -1,7 +1,7 @@
 plugins {
     java
     kotlin("jvm") version "2.3.0"
-    id("org.jetbrains.intellij.platform") version "2.10.2"
+    id("org.jetbrains.intellij.platform") version "2.14.0"
 }
 
 group = "com.dkajiwara.plugin"
