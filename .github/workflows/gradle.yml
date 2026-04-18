@@ -25,7 +25,7 @@ jobs:
         run: ./gradlew buildPlugin
 
       - name: Upload plugin file
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           retention-days: 1
           name: plugin-file
